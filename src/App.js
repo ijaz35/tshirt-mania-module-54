@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import { Route, Routes } from 'react-router-dom';
 import OrderReview from './components/OrderReview/OrderReview';
+import GrandPa from './components/GrandPa/GrandPa';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/orderreview" element={<OrderReview></OrderReview>}></Route>
+        <Route path="/grandpa" element={<GrandPa></GrandPa>}></Route>
       </Routes>
     </div>
   );
